@@ -7,8 +7,8 @@ import { HeaderComponent } from './shared/ui/header/header.component';
   standalone: true,
   imports: [RouterOutlet, HeaderComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'angular-p';
+  title = 'signal-store';
 }

@@ -2,12 +2,12 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
     {
-        path: 'products',
+        path: '',
         loadChildren : () => import('.//products/smart-compounents/product-shell/product.route'),
     },
 
     {
         path:'**',
-        redirectTo: 'products'
+        redirectTo: '',
     },
 ];
